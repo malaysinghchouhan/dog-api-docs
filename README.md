@@ -47,3 +47,55 @@ curl https://dog.ceo/api/breeds/image/random
 |------|------|
 | 404 | Endpoint not found |
 ---
+## 2. List All Dog Breeds
+
+**Method:** `GET`  
+**Endpoint:** `/breeds/list/all`  
+**Full URL:** `https://dog.ceo/api/breeds/list/all`
+
+### Parameters
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| None | —    | —        | Returns a dictionary of all dog breeds available in the API |
+
+### Sample Request
+```bash
+curl https://dog.ceo/api/breeds/list/all
+```
+### Sample Response
+```json
+
+{
+  "message": {
+    "affenpinscher": [],
+    "african": [],
+    "airedale": [],
+    "akita": [],
+    "appenzeller": [],
+    "australian": ["shepherd"],
+    "basenji": [],
+    "beagle": [],
+    "bluetick": [],
+    "borzoi": [],
+    "bouvier": [],
+    "boxer": [],
+    "brabancon": [],
+    "briard": [],
+    "bulldog": ["boston", "english", "french"],
+    "bullterrier": ["staffordshire"],
+    "cairn": [],
+    "cattledog": ["australian"],
+    ...
+  },
+  "status": "success"
+}
+```
+## Error Codes
+| Code | Meaning | 
+|------|------|
+| 200 | Success |
+|------|------|
+| 404 | Endpoint not found |
+
+---
+
