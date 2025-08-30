@@ -1,7 +1,7 @@
 # dog-api-docs
 API documentation work sample
 
-# 🐶 Dog CEO API Documentation
+# 🐶 Dog Catagories API Documentation
 
 This project demonstrates clean, standards-driven API documentation using the public Dog CEO API. It covers three endpoints with sample requests, responses, error codes, and parameter tables—ideal for showcasing technical writing and API literacy.
 
@@ -98,4 +98,38 @@ curl https://dog.ceo/api/breeds/list/all
 | 404 | Endpoint not found |
 
 ---
+
+
+## 3. Get Images by Breed
+
+**Method:** `GET`  
+**Endpoint:** `/breed/{breed-name}/images`  
+**Example URL:** `https://dog.ceo/api/breed/hound/images`
+
+### Parameters
+| Name       | Type   | Required | Description                     |
+|------------|--------|----------|---------------------------------|
+| breed-name | string | Yes      | The name of the dog breed (e.g., `hound`, `bulldog`) |
+
+### Sample Request
+```bash
+curl https://dog.ceo/api/breed/hound/images
+```
+## Sample Response
+```json
+{
+  "message": [
+    "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg",
+    "https://images.dog.ceo/breeds/hound-afghan/n02088094_1023.jpg"
+    // ...more image URLs
+  ],
+  "status": "success"
+}
+```
+## Error Codes
+| Code | Meaning | 
+|------|------|
+| 200 | Success |
+|------|------|
+| 404 | Endpoint not found |
 
