@@ -3,4 +3,47 @@ API documentation work sample
 
 # 🐶 Dog CEO API Documentation
 
-This project documents three endpoints from the [Dog CEO API](https://dog.ceo/dog-api/), using Markdown formatting for clarity and developer usability.
+This project demonstrates clean, standards-driven API documentation using the public Dog CEO API. It covers three endpoints with sample requests, responses, error codes, and parameter tables—ideal for showcasing technical writing and API literacy.
+
+**Skills Highlighted:**  
+- RESTful API structure  
+- Markdown formatting  
+- Curl usage and JSON parsing  
+- Parameter and error handling documentation  
+- Developer-first clarity and structure
+
+---
+
+## 1. Get Random Dog Image
+
+**Method:** `GET`  
+**Endpoint:** `/breeds/image/random`  
+**Full URL:** `https://dog.ceo/api/breeds/image/random`
+
+### Parameters
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| None | —    | —        | Returns a random dog image from any breed |
+
+### Sample Request
+```bash
+curl https://dog.ceo/api/breeds/image/random
+```
+### Sample Response
+```json
+{
+  "message": [
+    "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg",
+    "https://images.dog.ceo/breeds/hound-afghan/n02088094_1023.jpg"
+    // ...more image URLs
+  ],
+  "status": "success"
+}
+```
+## Error Codes
+| Code | Meaning | 
+|------|------|
+| 200 | Success |
+|------|------|
+| 404 | Endpoint not found |
+---
