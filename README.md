@@ -44,7 +44,6 @@ curl https://dog.ceo/api/breeds/image/random
 | Code | Meaning | 
 |------|------|
 | 200 | Success |
-|------|------|
 | 404 | Endpoint not found |
 ---
 ## 2. List All Dog Breeds
@@ -94,7 +93,6 @@ curl https://dog.ceo/api/breeds/list/all
 | Code | Meaning | 
 |------|------|
 | 200 | Success |
-|------|------|
 | 404 | Endpoint not found |
 
 ---
@@ -130,6 +128,5 @@ curl https://dog.ceo/api/breed/hound/images
 | Code | Meaning | 
 |------|------|
 | 200 | Success |
-|------|------|
 | 404 | Endpoint not found |
 
