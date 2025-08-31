@@ -12,6 +12,11 @@ This project demonstrates clean, standards-driven API documentation using the pu
 - Parameter and error handling documentation  
 - Developer-first clarity and structure
 
+![Markdown](https://img.shields.io/badge/Markdown-Expert-blue)
+
+[View My GitHub Portfolio](https://github.com/malaysinghchouhan)
+
+
 ---
 
 ## 1. Get Random Dog Image
