@@ -1,7 +1,7 @@
 # dog-api-docs
 API documentation work sample
 
-# 🐶 Dog Catagories API Documentation
+# Dog Catagories API Documentation
 
 This project demonstrates clean, standards-driven API documentation using the public Dog CEO API. It covers three endpoints with sample requests, responses, error codes, and parameter tables—ideal for showcasing technical writing and API literacy.
 
